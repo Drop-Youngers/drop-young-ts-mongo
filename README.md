@@ -7,7 +7,7 @@ This is a template for developping a server-side application (RESTful) on top of
 
 ## Contributing
 
-Contributions are always welcome😁!
+Contributions are always welcome😀!
 
 - Fork the Template🍴
 - Make Changes
