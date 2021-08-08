@@ -12,5 +12,23 @@
     "dayjs": "^1.10.6",
     "mongoose": "^5.13.5",
     "ts-node": "^10.1.0"
-  }
+  },
+  "name": "drop-young-ts-mongo",
+  "description": "This is a template for developping a server-side application (RESTful) on top of TypeScript + MongoDB.",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SauveJeanLuc/drop-young-ts-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SauveJeanLuc/drop-young-ts-mongo/issues"
+  },
+  "homepage": "https://github.com/SauveJeanLuc/drop-young-ts-mongo#readme"
 }
