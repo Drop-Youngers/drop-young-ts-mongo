@@ -4,9 +4,9 @@ import { UserDocument } from "./user.model";
 
 export interface SampleDocument extends mongoose.Document {
   user: UserDocument["_id"];
-  task: string;
-  deadline: Date;
-  isCompleted: boolean;
+  fieldString: string;
+  fieldDate: Date;
+  fieldBoolean: boolean;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -20,17 +20,17 @@ const SampleSchema = new mongoose.Schema(
       default: () => nanoid(10),
     },
     user: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
-    task: {
+    fieldString: {
       type: String,
       required: true,
       minlength: 3,
       maxlength: 255,
     },
-    deadline: {
+    fieldDate: {
       type: Date,
       required: true,
     },
-    isCompleted: {
+    fieldBoolean: {
       type: Boolean,
       default: false,
       required: true,
