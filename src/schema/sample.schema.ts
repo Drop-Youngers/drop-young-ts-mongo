@@ -2,8 +2,8 @@ import { object, string, date, boolean } from "yup";
 
 const payload = {
   body: object({
-    task: string().required("Task must be defined"),
-    deadline: date()
+    fieldString: string().required("FieldString must be defined"),
+    fieldDate: date()
       .min(new Date())
       .max(
         new Date(
@@ -12,8 +12,8 @@ const payload = {
           new Date().getDate()
         )
       )
-      .required("Deadline must be defined"),
-    isCompleted: boolean(),
+      .required("FieldDate must be defined"),
+    fieldBoolean: boolean(),
   }),
 };
 
