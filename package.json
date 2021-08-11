@@ -13,7 +13,8 @@
     "dotenv": "^10.0.0",
     "mongoose": "^5.13.5",
     "nanoid": "^3.1.23",
-    "ts-node": "^10.1.0"
+    "ts-node": "^10.1.0",
+    "yup": "^0.32.9"
   },
   "name": "drop-young-ts-mongo",
   "description": "This is a template for developping a server-side application (RESTful) on top of TypeScript + MongoDB.",
