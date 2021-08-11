@@ -1,2 +1,6 @@
 node_modules
 ./config/default.ts
+
+# dotenv environment variables file
+.env
+.env.test
