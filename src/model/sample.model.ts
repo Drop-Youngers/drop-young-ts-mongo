@@ -13,7 +13,7 @@ export interface SampleDocument extends mongoose.Document {
 
 const SampleSchema = new mongoose.Schema(
   {
-    itemId: {
+    sampleId: {
       type: String,
       required: true,
       unique: true,
