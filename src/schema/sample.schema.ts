@@ -19,7 +19,7 @@ const payload = {
 
 const params = {
   params: object({
-    itemId: string().required("itemId is required"),
+    sampleId: string().required("sampleId is required"),
   }),
 };
 
