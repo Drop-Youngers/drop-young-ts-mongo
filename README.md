@@ -1,7 +1,7 @@
 
 # Drop young Ts-Mongo
 
-This is a template for developping a server-side application (RESTful) on top of TypeScript + MongoDB.
+This is a template for developing a server-side application (RESTful) on top of TypeScript + MongoDB.
 
 
 
@@ -41,4 +41,4 @@ If you found this template useful, please star the project or edit this ReadMe t
 
 - [@SauveJeanLuc](https://www.github.com/SauveJeanLuc)
 
-  
+Copyright (C) [2021] [Drop-Youngers](https://www.github.com/Drop-Youngers)
